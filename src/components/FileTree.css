@@ -1,0 +1,28 @@
+.file-tree {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .file-tree li {
+    cursor: pointer;
+    padding: 5px 10px;
+  }
+  
+  .file-tree li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .file-node {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .file-node input {
+    width: 100px;
+  }
+  
+  .file-node button {
+    padding: 2px 5px;
+  }
+  

@@ -1,0 +1,8 @@
+.search-bar {
+    @apply mb-4 text-center;
+  }
+  
+  .search-bar input {
+    @apply w-4/5 p-2 text-lg border rounded;
+  }
+  

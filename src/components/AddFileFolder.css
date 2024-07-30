@@ -1,0 +1,18 @@
+.add-file-folder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.add-file-folder input,
+.add-file-folder select,
+.add-file-folder button {
+  padding: 5px;
+  font-size: 14px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}

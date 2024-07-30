@@ -1,0 +1,17 @@
+.file-node {
+    @apply flex items-center gap-2 p-2 rounded-lg hover:bg-gray-200 cursor-pointer;
+  }
+  
+  .file-node input {
+    @apply border rounded p-1;
+  }
+  
+  .file-node button {
+    @apply ml-2 p-1 bg-blue-600 text-white rounded hover:bg-blue-700;
+  }
+  
+  .file-node .fa-edit,
+  .file-node .fa-trash {
+    @apply ml-2 text-gray-600 hover:text-gray-800 cursor-pointer;
+  }
+  
